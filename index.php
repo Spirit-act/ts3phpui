@@ -25,7 +25,7 @@
 		<div class="col-md-12" style="height: 100px;"></div>
 		<div class="col-md-2"></div>
 		<div class="col-md-8">
-			<h2 class="center">Spirit-Corp.com TS3 User Interface</h2>
+			<h2 class="center">Spirit TS3 User Interface</h2>
 			<br>
 			<div class="col-md-6">
 				<form method="post">
