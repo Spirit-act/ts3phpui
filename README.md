@@ -22,7 +22,7 @@ I would add something:
  - User Menagment
  - Log view
  - Seperated Taps for different functions
- - Webchat for Communication between User and Web
+ - Webchat for Communication between Clients and Web
 
 
 ### Your Work
