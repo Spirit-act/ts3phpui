@@ -24,6 +24,11 @@ I would add something:
  - Seperated Taps for different functions
 
 
+### Your Work
+#### If you would use this UserInterface
+
+Download the "[TS3 PHP Framework from Github]" and change the "libaries" folder to inc and add the [conn.php]
+
 In the [conn.php] you need to change some values:
  ```php
  <?php
@@ -35,3 +40,4 @@ In the [conn.php] you need to change some values:
 
 [Planet TeamSpeak]: <https://www.planetteamspeak.com/>
 [conn.php]: <https://github.com/Spirit-act/ts3phpui/blob/master/inc/conn.php>
+[TS3 PHP Framework from Github]: <https://github.com/planetteamspeak/ts3phpframework>
