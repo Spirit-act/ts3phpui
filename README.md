@@ -30,6 +30,8 @@ I would add something:
 
 Download the "[TS3 PHP Framework from Github]" and change the "libaries" folder to inc and add the [conn.php]
 
+You also need to download [Bootstrap], because the design is based on Bootstrap 3.3.7 and some personal changes
+
 In the [conn.php] you need to change some values:
  ```php
  <?php
@@ -42,3 +44,4 @@ In the [conn.php] you need to change some values:
 [Planet TeamSpeak]: <https://www.planetteamspeak.com/>
 [conn.php]: <https://github.com/Spirit-act/ts3phpui/blob/master/inc/conn.php>
 [TS3 PHP Framework from Github]: <https://github.com/planetteamspeak/ts3phpframework>
+[Bootstrap]: <https://getbootstrap.com>
