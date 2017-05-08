@@ -42,7 +42,7 @@
 											echo '<option value="'.$ts3_Client.'">'.$ts3_Client.'</option>';
 										}
 									}
-								echo '<optgroup label="Bot">';
+									echo '<optgroup label="Bot">';
 									foreach($all as $ts3_Client) {
 										if (strpos($ts3_Client, 'bot') == true) {
 											echo '<option value="'.$ts3_Client.'" disabled>'.$ts3_Client.'</option>';
@@ -79,7 +79,7 @@
 											echo '<option value="'.$ts3_Client.'">'.$ts3_Client.'</option>';
 										}
 									}
-								echo '<optgroup label="Bot">';
+									echo '<optgroup label="Bot">';
 									foreach($all as $ts3_Client) {
 										if (strpos($ts3_Client, 'bot') != false) {
 											echo '<option value="'.$ts3_Client.'" disabled>'.$ts3_Client.'</option>';
@@ -112,7 +112,7 @@
 											echo '<option value="'.$ts3_Client.'">'.$ts3_Client.'</option>';
 										}
 									}
-								echo '<optgroup label="Bot">';
+									echo '<optgroup label="Bot">';
 									foreach($all as $ts3_Client) {
 										if (strpos($ts3_Client, 'bot') != false) {
 											echo '<option value="'.$ts3_Client.'" disabled>'.$ts3_Client.'</option>';
