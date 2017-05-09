@@ -8,8 +8,8 @@ This PHP UserInterface based on the "TS3 PHP Framework" from [Planet TeamSpeak]
 
 ### Discription
 
-This is a little side Project and I will work on it whenever I have time for it. 
-In this version you can do:
+This is a little side Project and I will work on whenever I have time for it. 
+In this version you are able to:
   - Send Privat Message to People
   - Poke User
   - Kick User
@@ -17,7 +17,7 @@ In this version you can do:
 
 
 ### plans for the future
-I would add something:
+some features I want to add:
  - Login
  - User Menagment
  - Log view
@@ -28,7 +28,7 @@ I would add something:
 ### Your Work
 #### If you would use this UserInterface
 
-Download the "[TS3 PHP Framework from Github]" and change the "libaries" folder to inc and add the [conn.php]
+Download the "[TS3 PHP Framework from Github]" and change the "libaries" folder to "inc" and add the [conn.php]
 
 You also need to download [Bootstrap], because the design is based on Bootstrap 3.3.7 and some personal changes
 
