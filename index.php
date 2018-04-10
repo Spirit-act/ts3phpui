@@ -331,18 +331,25 @@
 
 					// Ban
 					if ($banuser != '') {
-						if ($btime == 'sec') {
-							$btimeval = $btimevalue;
-						} elseif ($btime == 'min') {
-							$btimeval = $btimevalue * 60;
-						} elseif ($btime == 'hour') {
-							$btimeval = $btimevalue * 3600;
-						} elseif ($btime == 'day') {
-							$btimeval = $bantimevalue * 86400;
-						} elseif ($btime = 'perm') {
-							$btimeval = 315360000;
-						} else {
-							$btimeval = NULL;
+						switch ($btime){
+							case 'sec':
+								$btimeval = $btimevalue;
+								break;
+							case 'min':
+								$btimeval = $btimevalue * 60;
+								break;
+							case 'hour':
+								$btimeval = $btimevalue * 3600;
+								break;
+							case 'day':
+								$btimeval = $btimevalue * 86400;
+								break;
+							case 'perm':
+								$btimeval = 315360000;
+								break;
+							default:
+								$btimeval = NULL;
+								break;
 						}
 						$ts3_Client = $Vserver->clientGetByName($banuser);
 						$id = $ts3_Client->getId();
