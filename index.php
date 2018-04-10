@@ -5,8 +5,7 @@
 
 		<!-- CSS -->
 		<link rel="stylesheet" type="text/css" href="comp/bt/bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="comp/standard.css">
-		<link rel="stylesheet" type="text/css" href="comp/style.css">
+		<link rel="stylesheet" type="text/css" href="comp/style.css"> <!-- for personal changes (not required) -->
 		
 		<!-- JS -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
