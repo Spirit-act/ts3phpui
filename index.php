@@ -22,10 +22,10 @@
 			// connect to server
 			require_once('inc/conn.php');
 
-			// List all Clients
+			// list all clients
 			$all = $Vserver->clientList();
 
-			// List all Channel
+			// list all channel
 			$allchannel = $Vserver->ChannelList();
 		?>
 		<div class="col-md-12" style="height: 100px;"></div>
